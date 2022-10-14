@@ -5,6 +5,13 @@ class Feature1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      children: const [
+        SizedBox(
+          height: 20,
+        ),
+        Text("Feature1")
+      ],
+    );
   }
 }
