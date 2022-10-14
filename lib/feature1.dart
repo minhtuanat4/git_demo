@@ -15,3 +15,12 @@ class Feature1 extends StatelessWidget {
     );
   }
 }
+
+class IntoFeature1 extends StatelessWidget {
+  const IntoFeature1({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
